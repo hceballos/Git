@@ -1,4 +1,4 @@
-# Cómo bajar un proyecto de Githb a local.
+# Cómo bajar un proyecto de Github a local.
 ### Desde la web de Gitghub
 Buscamos el proyecto en <https://github.com> que queremos clonar en nuestro equipo, seleccionamos el boton verde "__Clone or Download__", al hacer click se despleará informacion adicional, por ejemplo : "https://github.com/hceballos/Git.git", copiamos esa direccion.
 
