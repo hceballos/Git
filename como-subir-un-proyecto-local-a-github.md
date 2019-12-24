@@ -25,9 +25,7 @@ En caso de error :
 
 $ git remote -v
 $ git remote rm destination
-
 ó
-
 $ git remote rename origin destination
 
 ```
