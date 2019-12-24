@@ -18,46 +18,42 @@ git push -u origin master
 ó
 
 git push
-
+```
 
 En caso de error :
 # fatal: remoto origin ya existe.
 
 hay 2 opciones:
-*ELEMINAR UN REMOTO
-*RENOMBRAR UN REMOTO
+1)ELEMINAR UN REMOTO
+2)RENOMBRAR UN REMOTO
 
 
 
-ELEMINAR UN REMOTO
-
-$ git remote -v
+### ELEMINAR UN REMOTO
+```$ git remote -v```
 # Ver los remotos actuales
 > origin https://github.com/hceballos/git (fetch)
 > origin https://github.com/hceballos/git (push)
 > destination https://github.com/hceballos/git (fetch)
 > destination https://github.com/hceballos/git (push)
-
-$ git remote rm destination
+```$ git remote rm destination```
 # Eliminar remoto
-$ git remote -v
+```$ git remote -v```
 # Verificar que se haya ido
 > origin https://github.com/hceballos/git (fetch)
 > origin https://github.com/hceballos/git (push)
 
 
-RENOMBRAR UN REMOTO
-$ git remote -v
+### RENOMBRAR UN REMOTO
+```$ git remote -v```
 # Ver remotos existentes
 > origin https://github.com/hceballos/git (fetch)
 > origin https://github.com/hceballos/git (push)
 
-$ git remote rename origin destination
+```$ git remote rename origin destination```
 # Cambiar el nombre del remoto de 'origen' a 'destino'
 
-$ git remote -v
+```$ git remote -v```
 # Verificar el nombre nuevo del remoto
 > destination https://github.com/hceballos/git (fetch)
 > destination https://github.com/hceballos/git (push)
-
-```
