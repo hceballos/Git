@@ -21,7 +21,7 @@ git push
 ```
 
 En caso de error :
-# fatal: remoto origin ya existe.
+# fatal: remoto origin ya existe. <br>
 
 hay 2 opciones:
 1)ELEMINAR UN REMOTO
