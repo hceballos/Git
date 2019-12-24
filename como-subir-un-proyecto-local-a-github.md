@@ -14,9 +14,7 @@ git commit -m "Git : Cómo subir un proyecto local a github"
 git remote add origin https://github.com/hceballos/git
 
 git push -u origin master
-
 ó
-
 git push
 
 
